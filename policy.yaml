@@ -1,0 +1,12 @@
+domain: api
+descriptors:
+  - match:
+      method: POST
+      path: /login
+    limits:
+      global:
+        capacity: 5
+        leak_rate_per_sec: 0.1
+      identity:
+        capacity: 2
+        leak_rate_per_sec: 0.05
