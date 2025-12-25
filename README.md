@@ -1,4 +1,4 @@
-# Go Redis Leaky Bucket Rate Limiter
+# Rate Limiter(Go + Redis)
 
 A simple **rate limiter** in Go using **Redis** and the **Leaky Bucket algorithm**.  
 Supports **global** and **per-identity** limits with standard rate limit headers.
